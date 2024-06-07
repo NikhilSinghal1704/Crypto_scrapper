@@ -19,7 +19,7 @@ Follow these steps to install and run the project:
 1. **Clone the repository:**
     ```bash
     git clone https://github.com/NikhilSinghal1704/Crypto_scrapper.git
-    cd Crypto_scrapper
+    cd Crypto_scrapper-main
     ```
 
 2. **Create a virtual environment and activate it:**
