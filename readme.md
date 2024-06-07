@@ -50,7 +50,9 @@ Follow these steps to install and run the project:
 - **scrape_coin:** Scrapes data for a single coin.
 
 ## Screenshots
-
-![Admin](https://github.com/NikhilSinghal1704/Crypto_scrapper/blob/main/Screenshots/admin.png)
-![Postman Scrapping Status](https://github.com/NikhilSinghal1704/Crypto_scrapper/blob/main/Screenshots/postman_scrapping_status.png)
-![Postman Start Scrapping](https://github.com/NikhilSinghal1704/Crypto_scrapper/blob/main/Screenshots/postman_start_scrapping.png)
+ - Giving Data
+    ![Postman Start Scrapping](https://github.com/NikhilSinghal1704/Crypto_scrapper/blob/main/Screenshots/postman_start_scrapping.png)
+ - Job data in the Admin
+    ![Admin](https://github.com/NikhilSinghal1704/Crypto_scrapper/blob/main/Screenshots/admin.png)
+ - Getting data with JobId
+    ![Postman Scrapping Status](https://github.com/NikhilSinghal1704/Crypto_scrapper/blob/main/Screenshots/postman_scrapping_status.png)
