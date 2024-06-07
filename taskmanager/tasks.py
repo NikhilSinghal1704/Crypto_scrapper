@@ -13,6 +13,8 @@ def scrape_coin(job_id, coin):
     except Exception as e:
         return f"Failed to scrape data for {coin}: {str(e)}"
 
+
+#making different tasks to run simoultaneously
 @shared_task
 def start_scraping_task(job_id, coins):
     tasks = [scrape_coin.s(job_id, coin) for coin in coins]
