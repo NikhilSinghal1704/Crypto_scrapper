@@ -1,6 +1,10 @@
 # Crypto Scrapper 
 
-This Django project scrapes cryptocurrency data through Selenium using Celery for parallel processing. 
+This Django project scrapes cryptocurrency data through Selenium using Celery for parallel processing.
+
+## Admin Panel Password
+ - username : nik
+ - password : nik
 
 ## Project Setup 
 
@@ -42,7 +46,10 @@ Follow these steps to install and run the project:
 ## Models
 
 - **ScrapingJob:** Stores the job ID and timestamp.
+    ![Admin](https://github.com/NikhilSinghal1704/Crypto_scrapper/blob/main/Screenshots/job_table.png)
+
 - **CoinData:** Stores the scraped data for each coin related to a ScrapingJob.
+    ![Admin](https://github.com/NikhilSinghal1704/Crypto_scrapper/blob/main/Screenshots/Coin_table.png)
 
 ## Celery Tasks
 
